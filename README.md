@@ -28,10 +28,10 @@
 # Instructions :: 
 1) Place the Popup.ps1 script somewhere you can access & copy the path.
 2) Right-click on "run-ps-startup.bat", Edit.
-3) Paste the path to Popup.ps1 inside the batch file 
-4) (replace the line after -File) ""%SYSTEMROOT%\System32\GroupPolicy\User\Scripts\Logon\Popup.ps1""
-5) Use the path you copied earlier.
-6) Schedule a task or a login/out job for the Policy and test the magic!
+* Use the path you copied earlier.
+* Paste the path to Popup.ps1 inside the batch file 
+* (replace the line after -File) ""%SYSTEMROOT%\System32\GroupPolicy\User\Scripts\Logon\Popup.ps1""
+3) Schedule a task OR a login/out job for the Policy & test the magic!
 
 ![image](https://user-images.githubusercontent.com/91343617/148437665-fb12d211-5193-4f30-9d92-6565f859b229.png)
 
