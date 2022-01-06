@@ -24,3 +24,16 @@
 * Edit the .batch_script to run the \Path\Popup.ps1 then you can add it (run.bat) in Task Scheduler.
 * Anytime a rule is found in the inbound section, you'll get a pop-up to verify it, if it's ok, don't make any changes to it.
 * Message me for any question/features that you may want me to add-in!
+
+# Instructions :: 
+1) Place the Popup.ps1 script somewhere you can access & copy the path.
+2) Right-click on "run-ps-startup.bat", Edit.
+3) Paste the path to Popup.ps1 inside the batch file 
+4) (replace the line after -File) ""%SYSTEMROOT%\System32\GroupPolicy\User\Scripts\Logon\Popup.ps1""
+5) Use the path you copied earlier.
+6) Schedule a task or a login/out job for the Policy and test the magic!
+
+![image](https://user-images.githubusercontent.com/91343617/148437665-fb12d211-5193-4f30-9d92-6565f859b229.png)
+
+# Purpose
+* I kept getting inbound rules added/modified silently in the background and found that annoying. Here's a simple, no download, fix to it. *You can copy/paste the code if that's more convenient.*
